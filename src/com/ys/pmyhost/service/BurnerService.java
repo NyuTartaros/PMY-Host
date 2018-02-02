@@ -10,6 +10,12 @@ import com.ys.pmyhost.entity.BurnJob;
 @WebService  
 @SOAPBinding(style = SOAPBinding.Style.RPC)  
 public interface BurnerService {
+	
+	@WebMethod
+	public boolean startBurnService();
+	
+	@WebMethod
+	public boolean stopBurnService();
 
 	@WebMethod
 	public BurnJob setNewJob(@WebParam(name="burnJob") BurnJob burnJob);

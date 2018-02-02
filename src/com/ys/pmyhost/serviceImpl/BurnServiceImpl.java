@@ -8,10 +8,22 @@ import com.ys.pmyhost.service.BurnerService;
 @WebService(endpointInterface="com.ys.pmyhost.service.BurnService")
 public class BurnServiceImpl implements BurnerService{
 
+
+	@Override
+	public boolean startBurnService() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean stopBurnService() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
 	@Override
 	public BurnJob setNewJob(BurnJob burnJob) {
 		// TODO Auto-generated method stub
-		
 		return null;
 	}
 
@@ -21,5 +33,4 @@ public class BurnServiceImpl implements BurnerService{
 		return null;
 	}
 
-	
 }
