@@ -3,8 +3,8 @@ package com.ys.pmyhost.entity;
 import java.util.ArrayList;
 
 public class BurnDataList {
-	//TODO 这里实际上应该是树形结构
 	
+	//TODO 这里实际上应该是树形结构
 	private ArrayList<BurnDataEntity> dataList;
 	
 	public BurnDataList(ArrayList<BurnDataEntity> dataList){

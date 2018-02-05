@@ -9,11 +9,11 @@ import com.ys.pmyhost.entity.BurnDataList;
 import com.ys.pmyhost.entity.BurnRequest;
 import com.ys.pmyhost.entity.BurnResponse;
 import com.ys.pmyhost.entity.PrintLabelList;
-import com.ys.pmyhost.service.BurnerService;
+import com.ys.pmyhost.service.BurnServiceInterface;
 
 @MTOM
-@WebService(endpointInterface="com.ys.pmyhost.service.BurnService")
-public class BurnServiceImpl implements BurnerService{
+@WebService(endpointInterface="com.ys.pmyhost.service.BurnServiceInterface")
+public class BurnServiceImpl implements BurnServiceInterface{
 
 	@Override
 	public boolean startBurnService() {

@@ -12,8 +12,8 @@ import com.ys.pmyhost.entity.BurnResponse;
 import com.ys.pmyhost.entity.PrintLabelList;
 
 @WebService  
-@SOAPBinding(style = SOAPBinding.Style.RPC)  
-public interface BurnerService {
+@SOAPBinding(style = SOAPBinding.Style.RPC)
+public interface BurnServiceInterface {
 	
 	@WebMethod
 	public boolean startBurnService();
