@@ -12,4 +12,6 @@ public class BurnJob {
 	private Integer copiesNum;
 	private Integer burnSpeed;
 	
+	
+	
 }
