@@ -44,15 +44,24 @@ public class BurnServiceImpl implements BurnServiceInterface{
 			, @XmlMimeType("*/*") 
 			@WebParam(name="printLabelList") PrintLabelList printLabelList
 			, @WebParam(name="labelSHA1") String labelSHA1) {
-		// TODO Auto-generated method stub
+		//TODO burnRequest参数合法性校验
 		
+		//TODO data SHA1校验
+		
+		//TODO label SHA1校验
+		
+		
+		//burnService.setNewJob(newJob);
 		return null;
 	}
 
 	@Override
 	public BurnResponse getJobStatus(
 			@WebParam(name="burnRequese") BurnRequest burnRequest) {
-		// TODO Auto-generated method stub
+		//TODO burnRequest参数合法性校验
+		
+		
+		//burnService.getJobStatus(burnRequest.getJobId());
 		return null;
 	}
 
