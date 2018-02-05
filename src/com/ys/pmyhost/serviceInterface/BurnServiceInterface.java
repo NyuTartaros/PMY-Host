@@ -1,4 +1,4 @@
-package com.ys.pmyhost.service;
+package com.ys.pmyhost.serviceInterface;
 
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
