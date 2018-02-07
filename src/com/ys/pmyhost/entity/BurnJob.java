@@ -22,5 +22,4 @@ public class BurnJob {
 	private int printOuterMargin;
 	
 	
-	
 }
