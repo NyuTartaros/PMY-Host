@@ -1,16 +1,25 @@
 package com.ys.pmyhost.entity;
 
-import java.io.File;
-import java.util.Date;
-
 public class BurnJob {
 	
 	private String jobId;
-	private File dataPath;
-	private File printLabel;
+	private String clientId;
+	private int importance;
+	private String dataPath;
+	private boolean deleteFiles;
+	private boolean closeDisc;
+	private int copyNum;
+	private String printLabel;
+	private PrintLabelList mergeField;
 	private String volumeName;
-	private Integer copiesNum;
-	private Integer burnSpeed;
+	private int burnSpeed;
+	private boolean verifyDisc;
+	private boolean rejectIfNotBlank;
+	private boolean notifyClient;
+	private boolean preMasterData;
+	private int printQuality;
+	private int printInnerDiam;
+	private int printOuterMargin;
 	
 	
 	

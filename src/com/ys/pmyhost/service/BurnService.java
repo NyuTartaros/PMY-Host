@@ -14,6 +14,7 @@ public class BurnService {
 	
 	public void setNewJob(BurnJob newJob){
 		//TODO waiting for complement
+		
 	}
 	
 	public void getJobStatus(String jobId){
