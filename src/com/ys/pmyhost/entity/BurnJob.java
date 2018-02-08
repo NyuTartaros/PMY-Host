@@ -52,6 +52,16 @@ public class BurnJob {
 		this.printOuterMargin = printOuterMargin;
 	}
 
+	@Override
+	public String toString() {
+		return "BurnJob [jobId=" + jobId + ", clientId=" + clientId + ", importance=" + importance + ", dataPath="
+				+ dataPath + ", deleteFiles=" + deleteFiles + ", closeDisc=" + closeDisc + ", copyNum=" + copyNum
+				+ ", printLabel=" + printLabel + ", mergeField=" + mergeField + ", volumeName=" + volumeName
+				+ ", burnSpeed=" + burnSpeed + ", verifyDisc=" + verifyDisc + ", rejectIfNotBlank=" + rejectIfNotBlank
+				+ ", notifyClient=" + notifyClient + ", preMasterData=" + preMasterData + ", printQuality="
+				+ printQuality + ", printInnerDiam=" + printInnerDiam + ", printOuterMargin=" + printOuterMargin + "]";
+	}
+
 	public void setJobId(String jobId){
 		this.jobId = jobId;
 	}
