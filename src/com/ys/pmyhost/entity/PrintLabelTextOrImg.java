@@ -12,21 +12,20 @@ public class PrintLabelTextOrImg {
 	public static final int TEXT_TYPE = 0;
 	public static final int IMAGE_TYPE = 1;
 	
-	public PrintLabelTextOrImg(int labelType, String text){
-		//TODO 这里应该throw一个专门定制的error类
-		if(labelType != TEXT_TYPE){
-			System.err.println("when param contains text, "
-					+ "labelType must be TEXT_TYPE.");
-		}
+	/**
+	 * 声明一个文字形式的PrintLabel的实例
+	 * @param text 
+	 */
+	public PrintLabelTextOrImg(String text){
 		setText(text);
 	}
 	
-	public PrintLabelTextOrImg(int labelType, DataHandler image, String imgFormat){
-		//TODO 这里应该throw一个专门定制的error类
-		if(labelType != IMAGE_TYPE){
-			System.err.println("when param contains image, "
-					+ "labelType must be IMAGE_TYPE.");
-		}
+	/**
+	 * 声明一个图片形式的PrintLabel的实例
+	 * @param image 包含了图片二进制数据的DataHandler实例
+	 * @param imgFormat 图片格式
+	 */
+	public PrintLabelTextOrImg(DataHandler image, String imgFormat){
 		//TODO 这里应该throw一个专门定制的error类
 		if(!checkImgFormat(imgFormat)){
 			System.err.println("image format illegal.");

@@ -7,6 +7,13 @@ public class BurnRequest {
 	private int copyNum;
 	private int burnSpeed;
 	
+	/**
+	 * 声明一个刻录请求类的实例
+	 * @param jobId JobID
+	 * @param volumeName 卷名
+	 * @param copyNum 刻录份数
+	 * @param burnSpeed 倍速
+	 */
 	public BurnRequest(String jobId, String volumeName
 			, int copyNum, int burnSpeed){
 		setJobId(jobId);

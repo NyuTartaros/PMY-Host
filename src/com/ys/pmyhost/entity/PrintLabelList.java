@@ -10,6 +10,10 @@ public class PrintLabelList {
 		labelList = new ArrayList<PrintLabelTextOrImg>();
 	}
 
+	/**
+	 * 声明一个包含一次打印任务中所有PrintLabel的List实例
+	 * @param labelList 一次打印任务中所有PrintLabel组成的ArrayList
+	 */
 	public PrintLabelList(ArrayList<PrintLabelTextOrImg> labelList){
 		this.labelList = labelList;
 	}

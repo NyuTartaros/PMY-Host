@@ -7,6 +7,10 @@ public class BurnDataList {
 	//TODO 这里实际上应该是树形结构
 	private ArrayList<BurnDataEntity> dataList;
 	
+	/**
+	 * 声明包含一个刻录任务的所有文件的List实例
+	 * @param dataList 所有需要打印的文件生成的BurnDataEntity组成的ArrayList
+	 */
 	public BurnDataList(ArrayList<BurnDataEntity> dataList){
 		setDataList(dataList);
 	}
